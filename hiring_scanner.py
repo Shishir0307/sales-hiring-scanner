@@ -84,6 +84,7 @@ SEARCH_SITES = [
     "site:myworkdayjobs.com",
     "site:smartrecruiters.com",
     "site:jobs.ashbyhq.com",
+    "site:naukri.com",
 ]
 
 USER_AGENT = (
