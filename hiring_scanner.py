@@ -57,34 +57,13 @@ from bs4 import BeautifulSoup
 # Configuration
 # ----------------------------
 ROLE_KEYWORDS = [
-    "Senior Sales Strategy",
-    "Sales Strategy",
     "Sales Operations",
-    "Global Sales Operations",
     "Revenue Operations",
-    "RevOps",
-    "Sales Intelligence",
-    "Sales Insights",
-    "Sales Insights & Analytics",
-    "Sales Enablement",
-    "Sales Planning & Operations",
-    "Sales Transformation",
-    "Go-to-Market Strategy",
-    "GTM Strategy",
-    "Sales Excellence",
-    "Sales Analytics",
-    "Market Intelligence",
-]
+    ]
 
 SEARCH_SITES = [
-    "site:boards.greenhouse.io",
-    "site:jobs.lever.co",
-    "site:ashbyhq.com",
-    "site:workable.com",
-    "site:myworkdayjobs.com",
-    "site:smartrecruiters.com",
-    "site:jobs.ashbyhq.com",
-    "site:naukri.com",
+    "https://www.indeed.com/jobs?q=Sales+Operations",
+    "https://www.indeed.com/jobs?q=Revenue+Operations",
 ]
 
 USER_AGENT = (
